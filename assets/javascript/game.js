@@ -1,4 +1,4 @@
-let letters = ["a", "b", "c"]
+let letters = ["f", "i", "s", "h"]
 
 let guessedLetters =[];
 
@@ -26,7 +26,7 @@ const updateGuessesSoFar = () => {
 
 
 const updateGuesesSoFar = () => {
-    document.querySelector("guessesSoFar").innerHTML = guessedLetters.join( ","); 
+    document.querySelector("guessesSoFar").innerHTML = guessedLetters.join(","); 
 }
 
 const reset = () => {
